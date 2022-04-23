@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/all.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+
+  <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"> 
+    <i class="fas fa-bars"></i>
+    <!-- <span class="sr-only">Menu</span> -->
+  </button>
+
+  <!-- <nav>
+    
+    <ul id="primary-navigation" class="primary-navigation" data-visible ="false">
+      <li>About</li>
+      <li>Blog
+        <ul class="dropdown">
+          <li>blog1</li>
+          <li>blog2</li>
+          <li>blog3</li>
+        </ul>
+      </li>
+      <li>Vlog</li>
+      <li>Contact</li>
+      <li>Careers</li>
+    </ul>
+  </nav> -->
+
+  <section class="main-article">
+    <div class="content-wrapper">
+      <h2> Learn to code by watching others</h2>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </div>
+
+    <!-- form -->
+    <div class="form-wrapper">
+      <div class="promo">
+        <h3> Try it free 7 days <span>then $20/mo. thereafter</span></h3>
+      </div>
+
+      <form id="form" action="/">
+        <div class="input-control">
+          <input type="text" placeholder="First Name" id="first-name">
+          <div class="error-text"></div>
+          <div class="error-img error-1"><img src="images/icon-error.svg" alt=""></div>
+        </div>
+
+        <div class="input-control">
+          <input type="text" placeholder=" Last Name " id="last-name">
+          <div class="error-text"></div>
+          <div class="error-img error-2"><img src="images/icon-error.svg" alt=""></div>
+        </div>
+
+        <div class="input-control">
+          <input type="text" placeholder=" Email Address" id="email">
+          <div class="error-text"></div>
+          <div class="error-img error-3"><img src="images/icon-error.svg" alt=""></div>
+        </div>
+
+        <div class="input-control">
+          <input type="password" placeholder="Password" id="password">
+          <div class="error-text"></div>
+          <div class="error-img error-4"><img src="images/icon-error.svg" alt=""></div>
+        </div>
+
+        <button type="submit"> Claim your free trial</button>
+
+        <div class="form-footer">
+          <p> By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="script.js"></script>
+</body>
+</html>
