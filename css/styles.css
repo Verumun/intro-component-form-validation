@@ -126,7 +126,7 @@ nav {
         display: block; }
         .main-article form .input-control input::placeholder {
           font-weight: 600;
-          color: #3e3c49; }
+          color: #b9b6d3; }
         .main-article form .input-control input:focus {
           outline: 1px solid #b9b6d3;
           transition: .5s ease; }
