@@ -233,21 +233,6 @@ nav{
                 }
             } 
 
-            // .error-1{
-            //     top: 4.5rem;
-            // }
-
-            // .error-2{
-            //     top: 10.1rem;
-            // }
-
-            // .error-3{
-            //     top: 15.5rem;
-            // }
-
-            // .error-4{
-            //     top: 21rem;
-            // }
         }
 
         // Button Styling
@@ -367,9 +352,38 @@ nav{
 
         .form-wrapper{
             width: 100%;
+            min-width: 100%;
             margin-top: 5rem;
 
         }
     }
 }
 
+@media screen and (max-width:365px){
+    .main-article{
+        .content-wrapper{
+            p{
+                font-size: 1.4rem;
+            }
+        }
+
+        .promo{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+
+        form{
+            .form-footer{
+               font-size: 1rem;
+            }
+    
+            button{
+                padding: 1.5rem 3rem;
+            }
+        } 
+    }
+
+    
+     
+}

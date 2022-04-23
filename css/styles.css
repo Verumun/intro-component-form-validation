@@ -196,4 +196,15 @@ nav {
     width: 100%; }
   .main-article .form-wrapper {
     width: 100%;
+    min-width: 100%;
     margin-top: 5rem; } }
+
+@media screen and (max-width: 365px) {
+  .main-article .content-wrapper p {
+    font-size: 1.4rem; }
+  .main-article .promo h3 {
+    font-size: 1.5rem; }
+  .main-article form .form-footer {
+    font-size: 1rem; }
+  .main-article form button {
+    padding: 1.5rem 3rem; } }
